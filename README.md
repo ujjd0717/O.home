@@ -1,5 +1,7 @@
 # O.HOME — 자캐놀이용 개인홈
 
+> 이 저장소(O.Home.Alpha.Single)는 [O.HOME](https://github.com/woojo0/O.Home.Alpha.Single)을 **커플홈**(두 사람이 자관 하나를 중심으로 같이 쓰는 홈)으로 개조한 배포 버전입니다 — 리스트 페이지 없이 자관·캐릭터 중심, 다이어리(캐릭터별 칸)·역극(메신저 모드)·스티키 메모·Videos 게시판·게시판별 작성권한 등. 개인 설정값(DB 연결 정보)은 들어 있지 않으니, 포크해서 올린 뒤 설치 화면에서 내 계정에 연결하면 됩니다.
+
 내 글·그림·캐릭터를 올려두고 지인들과 함께 노는 개인 홈페이지.
 데이터베이스는 **직접 만든 무료 계정**(Supabase 또는 Firebase)을 씁니다 — 서버 비용 없이 내 데이터는 내 계정에.
 
@@ -34,12 +36,12 @@ Vercel은 홈을 인터넷에 띄워 주는 곳입니다. **처음이면 계정�
 - 저장소 목록이 **비어 있거나** **[Continue with GitHub]** 버튼만 보인다면, 아직 GitHub이 연결되지 않은 상태입니다. **그 버튼을 눌러 연결하세요**
 - **[Install]** 설치 화면이 뜨면 접근 범위를 고릅니다
   - **All repositories** — 전부 허용 (간단합니다)
-  - **Only select repositories** — `O.home` 하나만 골라도 됩니다
+  - **Only select repositories** — `O.Home.Alpha.Single` 하나만 골라도 됩니다
 - 설치가 끝나면 목록에 저장소가 나타납니다
 
 **③ 배포하기**
 
-1. 목록에서 **O.home** 을 찾아 옆의 **[Import]** 클릭
+1. 목록에서 **O.Home.Alpha.Single** 을 찾아 옆의 **[Import]** 클릭
 2. 설정 화면이 나와도 **아무것도 건드리지 말고** **[Deploy]** 클릭
 3. 1~3분 기다리면 완료 — 축하 화면이 뜹니다
 4. 나온 **`https://내프로젝트.vercel.app`** 주소를 눌러 들어갑니다
@@ -78,14 +80,14 @@ Vercel은 기본값이 **미국 동부**라, 그냥 두면 페이지를 열 때�
 <details>
 <summary>한 번에 배포하기 (대신 새 버전을 못 받습니다)</summary>
 
-[![Vercel로 배포](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/w00j00working/O.home)
+[![Vercel로 배포](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/woojo0/O.Home.Alpha.Single)
 
 버튼 하나로 저장소 복사와 배포가 한 번에 끝납니다. 다만 이렇게 만들어진 저장소는 원본과 **연결이 끊긴 복사본**이라 **[Sync fork]로 업데이트를 받을 수 없습니다.** 새 버전을 계속 받고 싶다면 위의 포크 방식을 쓰세요.
 
 아래 주소를 그대로 보내 줘도 버튼과 똑같이 동작합니다.
 
 ```
-https://vercel.com/new/clone?repository-url=https://github.com/w00j00working/O.home
+https://vercel.com/new/clone?repository-url=https://github.com/woojo0/O.Home.Alpha.Single
 ```
 </details>
 
